@@ -246,10 +246,10 @@ iframe {
         width: 100% !important;
         margin-left: 0 !important;
     }
-    body {
+    /* body {
         padding-right: 10px;
         padding-left: 10px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 925px) {
@@ -794,7 +794,6 @@ html, body {
 #album-container,
 #imgcontainer {
     height: 200vh;
-    width: 100vw;
 }
 
 #album-container {
