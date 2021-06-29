@@ -11,6 +11,8 @@ html, body {
 }
 
 .landing-page {
+    background: url("../../assets/images/giphy\ \(1\).gif") no-repeat center center fixed;
+    background-size: cover;
     padding: 0 !important;
     background-color: black;
     overflow-x: hidden !important;
@@ -890,25 +892,4 @@ html, body {
 
 .flip-card1, .flip-card4 {
     display: none;
-}
-
-#bgvid {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
-}
-
-#bgvid video {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
