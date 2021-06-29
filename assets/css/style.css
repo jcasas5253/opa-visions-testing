@@ -73,7 +73,7 @@ p {
     width: 35%;
     margin-right: auto;
     margin-left: auto;
-    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: rgba(255, 255, 255, 0.5); */
     margin-bottom: 60px;
     overflow-y: auto;
     height: 550px;
@@ -302,14 +302,13 @@ iframe {
 #playstation1,
 #playstation2,
 #playstation3 {
-    background: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     width: 400px;
-    border: 1px solid #c1c1c1;
+    border: 2px solid black;
     overflow-y: auto;
     margin: 5px auto;
     overflow-x: hidden;
-    margin-bottom: 100px;
+    margin-bottom: 0 !important;
 }
 
     #controlpanel {
@@ -729,9 +728,9 @@ iframe {
     margin: 0;
 }
 .img-container {
-    background-color: rgba(255, 255, 255, 0.5);
-    overflow-y: auto;
-    height: 500px;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    /* overflow-y: auto; */
+    height: auto;
     text-align: center;
 }
     .img-container::-webkit-scrollbar {
@@ -819,6 +818,13 @@ html, body {
     padding-top: 40%;
 }
 
+#secret-container {
+    background-image: url("../../assets/images/IMG_2229_auto_x2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid purple;
+}
+
 /* glowing circle */
 .loader{
     position: relative;
@@ -865,3 +871,30 @@ html, body {
     z-index: 1;
     filter: blur(30px);
   }
+
+  #albums{
+    text-shadow: 2px 2px 4px #000;
+  }
+
+  .img-center{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  }
+
+  video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+.flip-card1, .flip-card4 {
+    display: none;
+}
