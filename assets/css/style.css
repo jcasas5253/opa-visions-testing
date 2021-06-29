@@ -13,6 +13,7 @@ html, body {
 .landing-page {
     padding: 0 !important;
     background-color: black;
+    overflow: hidden;
 }
 h2 {
     color: purple;
@@ -758,14 +759,6 @@ iframe {
     transform: translate(-50%, -50%);
     border-radius: 10px;
 }
-.hamburger {
-    border-bottom-right-radius: 100%;
-    background-color: rgb(231, 111, 12);
-    padding-right: 50px !important;
-}
-.hamburger__icon, .hamburger__icon:before, .hamburger__icon:after {
-    background-color: #fff !important;
-}
 
 @media only screen and (max-width: 600px) {
     #myVideo {
@@ -897,4 +890,25 @@ html, body {
 
 .flip-card1, .flip-card4 {
     display: none;
+}
+
+#bgvid {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+#bgvid video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
