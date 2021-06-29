@@ -490,7 +490,7 @@ iframe {
             border-bottom: 1px solid #cccccc;
             border-top: 1px solid #ffffff;
             font-size: 16px;
-            color: red;
+            color: #fff;
             font-weight: bold;
             cursor: pointer;
             -webkit-transition: 0.2s;
@@ -807,17 +807,26 @@ html, body {
 }
 
 #imgcontainer{
-    background-image: url("../../assets/images/IMG_2223_auto_x2.jpg");
+    background-image: url("../../assets/images/IMG_2229_auto_x2.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: left;
     padding-top: 40%;
 }
 
 #secret-container {
-    background-image: url("../../assets/images/IMG_2229_auto_x2.jpg");
+    background-image: url("../../assets/images/IMG_2223_auto_x2.jpg");
     background-size: cover;
     background-position: center;
     border-bottom: 2px solid purple;
+}
+
+#shop-container {
+    background-image: url("../../assets/images/redesign4.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid purple;
+    height: 200vh;
+    padding-top: 370px;
 }
 
 /* glowing circle */
@@ -849,7 +858,7 @@ html, body {
     left: 6px;
     right: 6px;
     bottom: 6px;
-    background: red;
+    background: black;
     border-radius: 50%;
     z-index: 1000;
   }
@@ -893,3 +902,70 @@ html, body {
 .flip-card1, .flip-card4 {
     display: none;
 }
+
+/* glowing button */
+.startContainer
+{
+	/* margin: 50px auto 0px auto; */
+	text-align: center;
+}
+
+/***********************************************************/
+
+.button
+{
+  color: rgb(231, 111, 12);
+  font-family: 'Orbitron', Verdana, sans-serif;
+  font-size: 2.2em;
+  font-weight: bold;
+  background: none;
+  padding: 5px;
+}
+.button:hover
+{
+  color: #fff;
+  cursor: pointer;
+  
+}
+@-webkit-keyframes pulseBox {
+    0% {-webkit-box-shadow: 0px 0px 10px 0px rgb(231, 111, 12);}
+    100% {-webkit-box-shadow: 0px 0px 18px 0px rgb(231, 111, 12);}
+  }
+  @-moz-keyframes pulseBox {
+    0% {-moz-box-shadow: 0px 0px 10px 0px rgb(231, 111, 12);}
+    100% {-moz-box-shadow: 0px 0px 18px 0px rgb(231, 111, 12);}
+  }
+  @-o-keyframes pulseBox {
+    0% {-o-box-shadow: 0px 0px 10px 0px rgb(231, 111, 12);}
+    100% {-o-box-shadow: 0px 0px 18px 0px rgb(231, 111, 12);}
+  }
+  @keyframes pulseBox {
+    0% {box-shadow: 0px 0px 10px 0px rgb(231, 111, 12);}
+    100% {box-shadow: 0px 0px 18px 0px rgb(231, 111, 12);}
+  }
+
+  
+  
+  .pulseBox {
+    -webkit-animation-name: pulseBox;
+    -moz-animation-name: pulseBox;
+    -o-animation-name: pulseBox;
+    animation-name: pulseBox;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -moz-animation-direction: alternate;
+    -o-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    border: 0px;
+  }

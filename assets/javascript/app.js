@@ -1917,7 +1917,7 @@ if ($('.content1').is(':visible')) {
     $('.hamburger').css("display", "none");
 }
 $('html, body').animate({
-    scrollTop: $("#loader1").offset().top -100
+    scrollTop: $("#shop-container").offset().top +200
 }, 1000);
 
 $('#loader0').click(function() {
