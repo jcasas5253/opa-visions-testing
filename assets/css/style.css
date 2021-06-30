@@ -546,11 +546,15 @@ iframe {
         }
 
     /* CSS3 Counter */
+    .flip-card000,
+    .flip-card00,
     .flip-card0,
     .flip-card1,
     .flip-card2,
     .flip-card3,
-    .flip-card4 {
+    .flip-card4,
+    .flip-card5,
+    .flip-card6 {
         background-color: transparent;
         width: 300px;
         height: 300px;
@@ -558,19 +562,27 @@ iframe {
         margin-right: auto;
         margin-left: auto;
     }
+    .flip-card000:hover,
+    .flip-card00:hover,
     .flip-card0:hover,
     .flip-card1:hover,
     .flip-card1:hover,
     .flip-card2:hover,
     .flip-card3:hover,
-    .flip-card4:hover {
+    .flip-card4:hover,
+    .flip-card5:hover ,
+    .flip-card6:hover {
         opacity: 0.8;
     }
+    .flip-card-inner000,
+    .flip-card-inner00,
     .flip-card-inner0,
     .flip-card-inner1,
     .flip-card-inner2,
     .flip-card-inner3,
-    .flip-card-inner4 {
+    .flip-card-inner4,
+    .flip-card-inner5,
+    .flip-card-inner6  {
         position: relative;
         width: 100%;
         height: 100%;
@@ -579,11 +591,15 @@ iframe {
         transform-style: preserve-3d;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
+.flip-card000:hover .flip-card-inner000,
+.flip-card00:hover .flip-card-inner00,
 .flip-card0:hover .flip-card-inner0,
 .flip-card1:hover .flip-card-inner1,
 .flip-card2:hover .flip-card-inner2,
 .flip-card3:hover .flip-card-inner3,
-.flip-card4:hover .flip-card-inner4 {
+.flip-card4:hover .flip-card-inner4,
+.flip-card5:hover .flip-card-inner5,
+.flip-card6:hover .flip-card-inner6 {
     cursor: pointer;
 }
 
@@ -613,7 +629,6 @@ iframe {
 
     .btn-container::-webkit-scrollbar-track {
         box-shadow: inset 0 0 1px grey;
-        background-color: black;
         border-radius: 4px;
     }
 
@@ -814,7 +829,7 @@ html, body {
 }
 
 #secret-container {
-    background-image: url("../../assets/images/IMG_2223_auto_x2.jpg");
+    background-color: black;
     background-size: cover;
     background-position: center;
     border-bottom: 2px solid purple;

@@ -122,9 +122,31 @@
                 <div class="album-title">
                     <h1 id="albums"
                         style="color:#fff;font-weight:bold;text-decoration:underline;margin-bottom:0!important;margin-right:auto;margin-left:auto;">
-                        Albums</h1>
+                        Music</h1>
                 </div>
-                <div style="margin-top:15px;" class="flip-card0" id="card-flip">
+                <div style="margin-top:15px;" class="flip-card000" id="card-flip">
+                    <div class="flip-card-inner000">
+                        <div class="flip-card-front">
+                            <img src="https://i1.sndcdn.com/artworks-dvMRDzfkXQBKVPlK-PZQ69A-t500x500.jpg" alt="Avatar"
+                                style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <button class="music-btn" id="noclassified" style="margin-top:35%;">Slo Singles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card00" id="card-flip">
+                    <div class="flip-card-inner00">
+                        <div class="flip-card-front">
+                            <img src="https://i1.sndcdn.com/artworks-oUVWUzpGm2TqIs0M-NRqJyw-t500x500.jpg" alt="Avatar"
+                                style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <button class="music-btn" id="noclassified" style="margin-top:35%;">Slo Jams</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card0" id="card-flip">
                     <div class="flip-card-inner0">
                         <div class="flip-card-front">
                             <img src="https://i1.sndcdn.com/artworks-000607929460-sg8rr3-t500x500.jpg" alt="Avatar"
@@ -135,7 +157,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flip-card1" id="card-flip">
+                <!-- <div class="flip-card1" id="card-flip">
                     <div class="flip-card-inner1">
                         <div class="flip-card-front">
                             <img src="https://i1.sndcdn.com/artworks-000523144152-4b2o1q-t500x500.jpg" alt="Avatar"
@@ -146,7 +168,7 @@
                                 Files</button>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="flip-card2" id="card-flip">
                     <div class="flip-card-inner2">
@@ -157,6 +179,18 @@
                         <div class="flip-card-back">
                             <button class="music-btn" id="noclassified" onclick="toggleMusic()"
                                 style="margin-top:35%;">NOCLASSIFIED</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card5" id="card-flip">
+                    <div class="flip-card-inner5">
+                        <div class="flip-card-front">
+                            <img src="https://i1.sndcdn.com/artworks-6f0AyYrnzjzLcnH1-osn5yA-t500x500.jpg" alt="Avatar"
+                                style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <button class="music-btn" id="noclassified" style="margin-top:35%;">Echoes Of The Siren</button>
                         </div>
                     </div>
                 </div>
@@ -173,7 +207,19 @@
                     </div>
                 </div>
 
-                <div class="flip-card4" id="card-flip">
+                <div class="flip-card6" id="card-flip">
+                    <div class="flip-card-inner6">
+                        <div class="flip-card-front">
+                            <img src="https://i1.sndcdn.com/artworks-7kBDcspyJL0Z2o25-9Cx6XQ-t500x500.jpg" alt="Avatar"
+                                style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <button class="music-btn" id="noclassified" style="margin-top:35%;">Passin Out</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="flip-card4" id="card-flip">
                     <div class="flip-card-inner4">
                         <div class="flip-card-front">
                             <img src="https://i1.sndcdn.com/artworks-000212103491-o2q31j-t500x500.jpg" alt="Avatar"
@@ -184,7 +230,7 @@
                                 style="margin-top:35%;">Minute Maid</button>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -383,6 +429,9 @@
             <button class="new-album" id="album-new" style="display:none;" onclick="newAlbum()">New Album</button>
         </div>
 
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-2b38ac2b-68f7-4411-a3d2-190200f35741" id="playlist-player"></div>
+
         <!-- Fall Player -->
         <section id="playstation0" style="display:none;">
             <div id="controlpanel">
@@ -471,7 +520,7 @@
         </section>
 
         <!-- The X Files Player -->
-        <section style="display:none;" id="playstation1">
+        <!-- <section style="display:none;" id="playstation1">
             <div id="controlpanel">
                 <div id="backward" class="inlineblo"></div>
                 <div id="songpro1" class="inlineblo"></div>
@@ -497,7 +546,7 @@
                     </span>
                 </li>
             </ol>
-        </section>
+        </section> -->
 
         <!-- NOCLASSIFIED Player -->
         <section id="playstation" style="display:none;">
@@ -630,7 +679,7 @@
         </section>
 
         <!-- Minute Maid Player -->
-        <section id="playstation3" style="display:none;">
+        <!-- <section id="playstation3" style="display:none;">
             <div id="controlpanel">
                 <div id="backward" class="inlineblo"></div>
                 <div id="songpro3" class="inlineblo"></div>
@@ -688,6 +737,86 @@
                     Faith ft. (Kylie x T-Money) <span style="display:block;" class="btn btn-primary">
                         <img onclick="playAudioNineteen()" class="play-pause18" style="height:30px;opacity:0.8"
                             src="assets/images/play-512.png"><img onclick="pauseAudioNineteen()" class="pause-play18"
+                            style="height:30px;opacity:0.8" src="assets/images/pause-512.png">
+                    </span>
+                </li>
+            </ol>
+        </section> -->
+
+        <!-- Slo Jams -->
+
+        <section id="playstation4" style="display:none;">
+            <div id="controlpanel">
+                <div id="backward" class="inlineblo"></div>
+                <div id="songpro2" class="inlineblo"></div>
+                <div id="forward" class="inlineblo"></div>
+            </div>
+            <h1 style="font-weight:bold;">SLOPXAO</h1>
+            <h2 style="font-weight:bold;">Slo Jams</h2>
+            <div class=row>
+                <div onclick="skipkBack6(),skipkBack7(),skipkBack8(),skipkBack9(),skipkBack10(),skipkBack11(),skipkBack12(),skipkBack13()"
+                    id="back-skip" class="skip-back" style="margin-left:48px;"><img
+                        style="height:33px;margin-left:2px;margin-top:2px;" src="assets/images/back-arrow.png" /></div>
+                <div onclick="skipForward6(),skipForward7(),skipForward8(),skipForward9(),skipForward10(),skipForward11(),skipForward12(),skipForward13()"
+                    id="forward-skip" class="skip-forward" style="margin-left:auto;margin-right:48px;"><img
+                        src="assets/images/forward-arrow.png" style="height:33px;margin-left:5px;margin-top:2px;" />
+                </div>
+            </div>
+            <progress id="seekbar3" value="0" max="1" style="width:100%;"></progress>
+            <ol class="music-player">
+                <li class="title">
+                    Gifted <span style="display:block;" class="btn btn-primary">
+                        <img onclick="playAudioSix()" class="play-pause5" style="height:30px;opacity:0.8"
+                            src="assets/images/play-512.png"><img onclick="pauseAudioSix()" class="pause-play5"
+                            style="height:30px;opacity:0.8" src="assets/images/pause-512.png">
+                    </span>
+                </li>
+                <li class="title">
+                    Hit The Gas (ft. JAH FLAME) <span style="display:block;" class="btn btn-primary">
+                        <img onclick="playAudioSeven()" class="play-pause6" style="height:30px;opacity:0.8"
+                            src="assets/images/play-512.png"><img onclick="pauseAudioSeven()" class="pause-play6"
+                            style="height:30px;opacity:0.8" src="assets/images/pause-512.png">
+                    </span>
+                </li>
+                <li class="title">
+                    24/7 (ft SLO <span style="display:block;" class="btn btn-primary">
+                        <img onclick="playAudioEight()" class="play-pause7" style="height:30px;opacity:0.8"
+                            src="assets/images/play-512.png"><img onclick="pauseAudioEight()" class="pause-play7"
+                            style="height:30px;opacity:0.8" src="assets/images/pause-512.png">
+                    </span>
+                </li>
+                <li class="title">
+                    City On Fire SLO X Johny Gordon <span style="display:block;" class="btn btn-primary">
+                        <img onclick="playAudioNine()" class="play-pause8" style="height:30px;opacity:0.8"
+                            src="assets/images/play-512.png"><img onclick="pauseAudioNine()" class="pause-play8"
+                            style="height:30px;opacity:0.8" src="assets/images/pause-512.png">
+                    </span>
+                </li>
+                <li class="title">
+                    Bacardi and Condoms (ft. Johny Gordon) <span style="display:block;" class="btn btn-primary">
+                        <img onclick="playAudioTen()" class="play-pause9" style="height:30px;opacity:0.8"
+                            src="assets/images/play-512.png"><img onclick="pauseAudioTen()" class="pause-play9"
+                            style="height:30px;opacity:0.8" src="assets/images/pause-512.png">
+                    </span>
+                </li>
+                <li class="title">
+                    Banjo <span style="display:block;" class="btn btn-primary">
+                        <img onclick="playAudioEleven()" class="play-pause10" style="height:30px;opacity:0.8"
+                            src="assets/images/play-512.png"><img onclick="pauseAudioEleven()" class="pause-play10"
+                            style="height:30px;opacity:0.8" src="assets/images/pause-512.png">
+                    </span>
+                </li>
+                <li class="title">
+                    Pop In Pop Out <span style="display:block;" class="btn btn-primary">
+                        <img onclick="playAudioTwelve()" class="play-pause11" style="height:30px;opacity:0.8"
+                            src="assets/images/play-512.png"><img onclick="pauseAudioTwelve()" class="pause-play11"
+                            style="height:30px;opacity:0.8" src="assets/images/pause-512.png">
+                    </span>
+                </li>
+                <li class="title">
+                    MAGIC MOUNTAIN (ft. RJ) <span style="display:block;" class="btn btn-primary">
+                        <img onclick="playAudioThirteen()" class="play-pause12" style="height:30px;opacity:0.8"
+                            src="assets/images/play-512.png"><img onclick="pauseAudioThirteen()" class="pause-play12"
                             style="height:30px;opacity:0.8" src="assets/images/pause-512.png">
                     </span>
                 </li>
