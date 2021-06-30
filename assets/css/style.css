@@ -15,7 +15,9 @@ html, body {
     background-size: cover;
     padding: 0 !important;
     background-color: black;
-    overflow-x: hidden !important;
+}
+#home-master {
+    overflow-x:hidden;
 }
 h2 {
     color: purple;
@@ -107,7 +109,7 @@ p {
     background: black;
     color: #fff;
 }
-.music-btn:before,
+/* .music-btn:before,
 button:after {
     content: '';
     position: absolute;
@@ -128,7 +130,7 @@ button:after {
     width: 0;
     background: yellow;
     transition: 400ms ease all;
-}
+} */
 .music-btn:after {
     right: inherit;
     top: inherit;
@@ -219,6 +221,9 @@ iframe {
         color: yellow !important;
         font-weight: bold !important;
     }
+    #carouselExampleCaptions {
+        width: 70% !important;
+    }
 }
 @media only screen and (max-width: 992px) {
     .btn-container {
@@ -230,9 +235,9 @@ iframe {
         padding-right: 0 !important;
         padding-left: 0 !important;
     }
-    .icon-bar {
+    /* .icon-bar {
         display: none !important;
-    }
+    } */
     .mobile-social {
         display: inherit!important;
     }
@@ -285,6 +290,9 @@ iframe {
 @media only screen and (max-width: 420px) {
     #playstation0, #playstation, #playstation1, #playstation2, #playstation3 {
         width: auto !important;
+    }
+    #carouselExampleCaptions {
+        width: 100% !important;
     }
 }
 
@@ -693,17 +701,17 @@ iframe {
     }
 
     .soundcloud {
-        background: #ff5500;
+        background-color: #ff5500;
         color: white;
     }
 
     .tumblr {
-        background: #34526f;
+        background-color: #34526f;
         color: white;
     }
 
     .youtube {
-        background: #bb0000;
+        background-color: #bb0000;
         color: white;
     }
 
@@ -842,6 +850,15 @@ html, body {
     border-bottom: 2px solid purple;
     height: 200vh;
     padding-top: 370px;
+}
+
+#artistscontainer {
+    background-image: url("../../assets/images/IMG_2223_auto_x2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid purple;
+    padding-top: 40%;
+    height: 200vh;
 }
 
 /* glowing circle */
@@ -983,4 +1000,43 @@ html, body {
     -o-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     border: 0px;
+  }
+
+  #carouselExampleCaptions {
+    width: 40%;
+    margin: auto;
+  }
+
+  .d-block {
+      border-radius: 100px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+      background-color: rgb(231, 111, 12) !important;
+      border-radius: 100px;
+  }
+
+  .img-text {
+      color: black;
+      font-weight: bold;
+  }
+
+  .card-body {
+      text-align: center;
+  }
+
+  .card {
+    display: inline-table;
+    margin: 10px;
+  }
+
+  #card-center {
+      text-align: center;
+  }
+
+  .fa-angle-double-right:hover,
+  .fa-angle-double-left:hover {
+      color:rgb(231, 111, 12) !important;
+      cursor: pointer !important;
   }

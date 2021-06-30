@@ -2188,5 +2188,21 @@ $('#loader1').click(function() {
 });
 
 $('#loader2').click(function() {
-    $('#img-gallery').toggle();
+    $('#carouselExampleCaptions').toggle();
+});
+
+$('#loader01').click(function() {
+    $('#card-center').toggle();
+});
+
+$('.fa-angle-double-right').click(function() {
+    $('.social-hider').toggle();
+    $('.fa-angle-double-right').toggle();
+    $('.fa-angle-double-left').toggle();
+});
+
+$('.fa-angle-double-left').click(function() {
+    $('.social-hider').toggle();
+    $('.fa-angle-double-right').toggle();
+    $('.fa-angle-double-left').toggle();
 });
