@@ -1040,3 +1040,7 @@ html, body {
       color:rgb(231, 111, 12) !important;
       cursor: pointer !important;
   }
+
+  .card-img-top {
+      height: 350px;
+  }
